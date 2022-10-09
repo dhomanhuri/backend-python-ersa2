@@ -85,6 +85,7 @@ def singleObjectSensor(data):
         'id' : data.id,
         'temp' : data.temp,
         'hum' : data.hum,
+        'telur' : data.telur,
         'updated_at' : data.updated_at
     }
     return data
